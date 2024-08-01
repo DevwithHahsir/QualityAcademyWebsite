@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav-container
+{
+
+}
+
+.header{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.head-img img
+{
+    width: 10rem;
+    height: 5rem;
+    object-fit: contain;
+    
+}
+.head{
+    
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.head1
+{
+    color: white;
+    background-color: #FF7D29;
+    width: 17rem;
+}
+.head1:hover{
+    color: black;
+}
+
+.head2,.head3
+{
+    color:#FF7D29;
+    width: 10rem;
+    
+    background-color: rgba(158, 158, 158, 0.185);
+}
+.head2:hover,.head3:hover
+{
+    background-color: #FF7D29;
+    color: white;
+}
+
+.head4
+{
+    outline: none;
+    
+}
+select
+{
+    border: 1px solid  rgba(158, 158, 158, 0.658);
+    padding: 0.2rem;
+    font-size:xx-small;
+    width: max-content;
+    font-weight: 200;
+    border-radius:4px ;
+}
+
+.head5
+{
+    border: 1px solid  rgba(158, 158, 158, 0.658);
+    border-radius: 5px;
+    padding: 0.2rem;
+}
+.head5 i{
+    
+    color: #FF7D29;
+}
+
+
+
+.nav-container
+{
+   
+}
+
+.nav-container nav div{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+ 
+    
+}
+
+li a select
+{
+    padding: 0.3rem;
+    border: none;
+    font-size: larger;
+    font-weight: 500;
+    color:  rgb(92, 92, 92);
+    
+}
+li a select:hover
+{
+    background-color: #FF7D29;
+    color: white;
+}
+
+.link1 a,.link6 a
+{
+    
+    padding: 0.3rem;
+    display: flex;
+    margin-top: 0.4rem;
+    font-size: larger;
+    font-weight: 500;
+    color:  rgb(66, 66, 66);
+}
+.link1 a:hover,.link6 a:hover
+{
+    background-color: #FF7D29;
+    border-radius: 3px;
+    color: white;
+}
+
+
+
