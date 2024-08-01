@@ -31,7 +31,7 @@
     padding: 0.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     outline: none;
-    background-color:#E65C19;
+    background-color: #06D001;
     color: white;
     border: none;
 }
@@ -47,7 +47,7 @@
 }
 .heading
 {
-    color: #E65C19;
+    color: #06D001;
 
 }
 .descrip
@@ -82,7 +82,7 @@
 }
 .text{
     margin-top: 0.6rem;
-    color: #E65C19;
+    color:  #06D001;
     font-weight: 500;
 } 
 .managemntsystemcertification-container
@@ -104,7 +104,7 @@
  object-fit: contain;
  object-position: center;
  width: 25rem;
- border: 4px solid #E65C19;
+ border: 4px solid #06D001;
  box-shadow: 0px 0px 30px 0px grey;
 
 }
@@ -119,7 +119,7 @@
     width: 30rem;
 }
 .managemntsystemcertification-container button{
-    background-color: #E65C19;
+    background-color: #06D001;
     color: white;
     padding: 0.5rem;
     border: none;
@@ -164,7 +164,7 @@
 .certified,.help,.quote
 {
 
-    border: 2px dotted #E65C19;
+    border: 2px dotted #06D001;
     width: max-content;
     padding:0.5rem;
     width: 25rem;
@@ -215,10 +215,137 @@
 .help-container button
 {
     padding: 0.2rem;
-    background-color: #E65C19;
+    background-color: #06D001;
     color: white;
     border: none;
     outline: none;
     font-size: large;
     width: 100%;
 }
+
+
+.info-container
+{
+   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #06D001;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+input[type="email"],input[type="text"] , .subscribe
+{
+    width: 25rem;
+    border-radius: 4px;
+    height: 3rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+
+}
+
+.subscribe
+{
+    color: #06D001;
+}
+
+.subscribe:hover{
+   
+   color: white;
+    background-color: rgba(128, 128, 128, 0.801);
+}
+
+
+
+.footer-container{
+   display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(48, 48, 48, 0.548);
+   
+    
+}
+
+.foot-img 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-img img
+{
+
+    margin-top: 4rem;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 7px ;
+    
+}
+
+.Fheading
+{
+    margin-top: 4rem;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+}
+
+hr
+{
+    background-color: #ccc;
+}
+.links
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    
+}
+
+.links a
+{
+    color: white;
+}
+.links a:hover
+{
+    color: white;
+
+}
+
+.search
+{
+    padding: 1rem;
+    background-color:rgba(48, 48, 48, 0.548) ;
+    display: flex;
+    justify-content: center;
+}
+.search input[type="text"]
+{
+    width: 92%;
+    padding: 0.4rem;
+    border: 1px solid white;
+}
+.search ::placeholder
+{
+    color: rgba(255, 255, 255, 0.39);
+}
+
+.rights
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(48, 48, 48, 0.671) ;
+    color: white;
+    font-size: small;
+    padding: 1rem;
+
+}
+
+.rights a
+{
+    color: white;
+    padding: 0.2rem;
+}
+
