@@ -35,7 +35,7 @@
 .head1
 {
     color: white;
-    background-color:  #06D001;
+    background-color:  #40A578;
     width: 17rem;
 }
 .head1:hover{
@@ -44,14 +44,14 @@
 
 .head2,.head3
 {
-    color: #06D001;
+    color: #40A578;
     width: 10rem;
     
     background-color: rgba(158, 158, 158, 0.185);
 }
 .head2:hover,.head3:hover
 {
-    background-color: #06D001;
+    background-color: #40A578;
     color: white;
 }
 
@@ -78,7 +78,7 @@ select
 }
 .head5 i{
     
-    color:  #06D001;
+    color:  #40A578;
 }
 
 
@@ -108,7 +108,7 @@ li a select
 }
 li a select:hover
 {
-    background-color:  #06D001;
+    background-color:  #40A578;
     color: white;
 }
 
@@ -124,7 +124,7 @@ li a select:hover
 }
 .link1 a:hover,.link6 a:hover
 {
-    background-color: #06D001;
+    background-color: #40A578;
     border-radius: 3px;
     color: white;
 }

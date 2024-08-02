@@ -31,7 +31,7 @@
     padding: 0.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     outline: none;
-    background-color: #06D001;
+    background-color: #40A578;
     color: white;
     border: none;
 }
@@ -47,7 +47,7 @@
 }
 .heading
 {
-    color: #06D001;
+    color:#40A578;
 
 }
 .descrip
@@ -82,7 +82,7 @@
 }
 .text{
     margin-top: 0.6rem;
-    color:  #06D001;
+    color:  #40A578;
     font-weight: 500;
 } 
 .managemntsystemcertification-container
@@ -104,7 +104,7 @@
  object-fit: contain;
  object-position: center;
  width: 25rem;
- border: 4px solid #06D001;
+ border: 4px solid #40A578;
  box-shadow: 0px 0px 30px 0px grey;
 
 }
@@ -119,7 +119,7 @@
     width: 30rem;
 }
 .managemntsystemcertification-container button{
-    background-color: #06D001;
+    background-color: #40A578;
     color: white;
     padding: 0.5rem;
     border: none;
@@ -164,7 +164,7 @@
 .certified,.help,.quote
 {
 
-    border: 2px dotted #06D001;
+    border: 2px dotted #40A578;
     width: max-content;
     padding:0.5rem;
     width: 25rem;
@@ -215,7 +215,7 @@
 .help-container button
 {
     padding: 0.2rem;
-    background-color: #06D001;
+    background-color: #40A578;
     color: white;
     border: none;
     outline: none;
@@ -229,7 +229,7 @@
    
     display: flex;
     justify-content: space-evenly;
-    background-color: #06D001;
+    background-color: #40A578;
     margin-top: 4rem;
     padding: 1rem;
 }
@@ -247,7 +247,7 @@ input[type="email"],input[type="text"] , .subscribe
 
 .subscribe
 {
-    color: #06D001;
+    color: #40A578;
 }
 
 .subscribe:hover{
@@ -349,3 +349,177 @@ hr
     padding: 0.2rem;
 }
 
+
+.bussiness
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    flex-direction: column;
+    background-color: rgba(34, 34, 34, 0.089);
+    padding: 1rem;
+
+}
+
+.bussiness .heading
+{
+    font-size: x-large;
+    font-weight: 500;
+}
+.bussiness .descrip
+{
+    font-size: large;
+
+}
+
+.bussiness button
+{
+    border: none;
+    outline: none;
+    background-color: #40A578;
+    color: white;
+    padding: 0.5rem;
+}
+
+.ads
+{
+   margin-top: 4rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.fixad
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    width: max-content;
+    padding: 1rem;
+    background-color: rgba(39, 39, 39, 0.144);
+
+
+}
+.ad
+{
+    margin: 0.3rem;
+}
+
+.fixad .heading
+{
+    font-size: medium;
+   
+}
+
+.stars
+{
+    display: flex;
+    
+    color: goldenrod;
+    
+}
+
+.stars i
+{
+    color: golden;
+}
+
+.fixad button
+{
+    width: max-content;
+    padding: 0.5rem;border: none;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    background-color: rgba(40, 40, 223, 0.911);
+}
+
+.carlads
+{
+
+    width: 15rem;
+    background-color: rgba(39, 39, 39, 0.144);
+    border-radius: 7px;
+    width: 20rem;
+    height: 10rem;
+}
+    
+    
+    
+
+.carlads img
+{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.img-head
+{
+    display: flex;
+    
+}
+
+.names
+{
+    margin-left: 0.4rem;
+}
+.names .name
+{
+    font-weight: 500;
+}
+.names .time
+{
+    font-size: small;
+    font-weight: 400;
+}
+.carlads .stars
+{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 0.5rem;
+   
+}
+
+.carlads .descrip
+{
+   
+    display: flex;
+
+    padding: none;
+}
+.carousel-item
+{
+    padding: 1rem;
+}
+
+
+
+.promotions
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.144);
+
+}
+.promotions img
+{
+    width: max-content !important;
+    height: 10rem !important;
+    mix-blend-mode: color-burn;
+    object-fit: cover;
+    object-position: center;
+    margin: 1rem;
+}
+.carousel-item
+{
+    display: flex;
+} 
+
+.prom-imgs
+{
+    display: flex;
+}
